@@ -70,6 +70,7 @@ header {
     align-items: center;
     justify-content: space-between;    
     padding: 0 220px;
+    box-sizing: border-box;
 }
 
 
@@ -265,7 +266,7 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
 .story .story-subject img {width: 710px; height: 550px; box-shadow: 0 20px 20px rgb(134, 102, 80, 0.1);}
 
 .terrace {
-    width: 1480px; height: 800px; padding: 0 220px; background-color: #e9e3d7;
+    width: 100%; height: 800px; box-sizing: border-box; padding: 0 220px; background-color: #e9e3d7;
     display: flex; align-items: center; justify-content: space-between
 }
 
