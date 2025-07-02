@@ -339,15 +339,15 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
 }
 
 .inspiration .inspiration-subtitle {
-    font-size: 32px; font-family: 'Pretendard-Regular'; color: #f7fef1;
+    font-size: 32px; font-family: 'Pretendard-Regular'; color: #f7fef1; line-height: 38px;
 }
 .inspiration .inspiration-title {
     font-size: 70px; font-family: 'Pretendard-Bold';
-    color: #f7fef1; margin-top: 20px;
+    color: #f7fef1; margin-top: 20px; line-height: 83px;
 }
 .inspiration .inspiration-subject {
     font-size: 30px; font-family: 'Pretendard-Light';
-    line-height: 50px;
+    line-height: 42px;
     color: #f7fef1; margin-top: 20px;
 }
 .inspiration .inspiration-contents .btn {background-color: #3d2a2a; margin-top: 50px;}
