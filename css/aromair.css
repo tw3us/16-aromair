@@ -53,13 +53,13 @@ li {list-style: none;}
     line-height: 22px;}
 
 #wrap {
-    width: 1920px;
+    width: 100%;
     background: #f3f3f3;
     margin: 0 auto;
 }
 
 header {
-    width: 1920px; height: 140px;
+    width: 100%; height: 140px;
 }
 
 .header-top {
@@ -145,7 +145,7 @@ header .header-top .log .cart {
 
 
 .banner {
-    width: 1920px; height: 1000px; 
+    width: 100%; height: 1000px; 
     background: url(../img/banner.png) no-repeat;
     display: flex; flex-direction: column;
     align-items: center; justify-content: flex-start;
@@ -192,7 +192,7 @@ header .header-top .log .cart {
 
 .line {width: 150px; height: 2px; border-radius: 10px; margin: 100px auto; background-color: #f3c6bf;}
 
-.product {width: 1920px; height: 1150px; border-radius: 0 300px 0 0; background: #edeae5;
+.product {width: 100%; height: 1150px; border-radius: 0 300px 0 0; background: #edeae5;
 display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .product-txt {text-align: center;}
 
@@ -225,7 +225,7 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
     background: url(../img/arrow.svg) no-repeat right center;}
 
 .story {
-    width: 1920px;
+    width: 100%;
     height: 784px;
     display: flex;
     flex-direction: column;
@@ -255,7 +255,7 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
 }
 
 .story .story-subject {
-    width: 1920px;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -288,7 +288,7 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
 .terrace-subject a {font-size: 20px; font-family: 'Pretendard-Regular'; color: #866650; padding-right: 30px; background: url(../img/terrace-arrow.svg) no-repeat right center;}
 
 .inspiration {
-    width: 1920px; height: 1400px; display: flex; flex-direction: column;
+    width: 100%; height: 1400px; display: flex; flex-direction: column;
     background: url(../img/inspiration.png) no-repeat;
     flex-shrink: 0;
 }
