@@ -351,3 +351,104 @@ display: flex; flex-direction: column; align-items: center; justify-content: cen
     color: #f7fef1; margin-top: 20px;
 }
 .inspiration .inspiration-contents .btn {background-color: #3d2a2a; margin-top: 50px;}
+
+
+.sofa .sofa-txt {
+    display: flex; flex-direction: column;
+    
+}
+.sofa .sofa-txt .sofa-title {
+    font-size: 50px; font-family: 'Pretendard-Bold';
+    color: #834521; text-align: center; margin-bottom: 20px;
+}
+.sofa .sofa-txt .sofa-subtitle {
+    font-size: 30px; font-family: 'Pretendard-Light';
+    color: #915635; text-align: center; margin-bottom: 92px;
+}
+
+.sofa-contents {
+    background: url(../img/sofa-bg.png) no-repeat center; 
+    height: 1200px; display: flex; flex-direction: column;
+}
+
+.sofa .sofa-contents .img-1 {width: 590px; height: 490px;}
+.sofa .sofa-contents .img-2 {width: 680px; height: 560px;}
+
+.sofa-content {
+    display: flex; align-items: center; justify-content: flex-start;}
+.sofa-content-1 {position: relative;}
+.sofa-content-2 {position: relative; flex-direction: row-reverse; transform: translate(0, -30%);}
+.sofa-content-3 {position: relative; transform: translate(0, -60%);}
+
+.sofa-left {display: flex; flex-direction: column; gap: 20px;}
+.sofa-right {display: flex; flex-direction: column; gap: 20px; align-items: flex-end;}
+
+
+
+.sofa-name {
+    font-size: 40px; font-family: 'Pretendard-SemiBold'; color: #834521;
+}
+.sofa-detail {
+    font-size: 24px; font-family: 'Pretendard-Regular'; color: #686764;
+}
+.sofa-color {display: flex; gap: 10px; align-items: center;}
+.sofa-price {
+    font-size: 30px; font-family: 'Pretendard-Medium'; color: #686764;
+}
+
+.philosophy-bg {width: 100%; height: 750px; background: #562e20;}
+.philosophy {
+    height: 750px; background: #562e20;
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.philosophy-subtitle {
+    font-size: 30px; 
+    font-family: 'Pretendard-Medium'; 
+    color: #e9e3d7;
+    margin-bottom: 25px;
+}
+.philosophy-title {
+    font-size: 50px; 
+    font-family: 'Pretendard-SemiBold'; 
+    color: #e9e3d7;
+    margin-bottom: 50px;
+}
+.philosophy-subject {
+    font-size: 30px; 
+    font-family: 'Pretendard-Light'; 
+    color: #e9e3d7;
+}
+
+.map {margin-bottom: 300px;}
+
+.map-title {font-size: 50px; font-family: 'Pretendard-Bold';
+    color: #834521; text-align: center; margin-bottom: 20px;}
+.map-content {font-size: 30px; font-family: 'Pretendard-Light';
+    color: #915635; text-align: center; margin-bottom: 70px;}
+
+.root_daum_roughmap_landing {margin: 0 auto!important;}
+
+.root_daum_roughmap .wrap_controllers {display: none;}
+
+footer {width: 100%; height: 400px; background: #40403f;}
+.footer {height: 400px; display: flex; align-items: center; justify-content: space-between;}
+.footer-main {display: flex; flex-direction: column; gap: 100px;}
+.footer-area {
+    display: flex; 
+    align-items: center; 
+    gap: 100px;
+    font-size: 18px;
+    font-family: 'Pretendard-Light';
+}
+.footer-area li:nth-child(2) {font-family: 'Pretendard-Medium';}
+.footer-info {font-size: 16px; font-family: 'Pretendard-ExtraLight'; color: #f3f3f3;}
+.footer-info li:nth-child(2) {margin-top: 20px;}
+
+.footer-btn {display: flex; text-align: center; align-items: center; justify-content: center;}
+
+.footer-Sub {display: flex; flex-direction: column; gap: 20px;}
+.infut {display: flex; gap: 20px;}
+.infut div {width: 250px; height: 70px; outline: 2px solid #E9E3D7; outline-offset: -2px; color: #E9E3D7;}
+.sub {width: 520px; height: 70px; background: #E9E3D7; font-size: 20px; font-family: 'Pretendard-Medium'; color: #40403f;}
+.sub-txt {font-size: 16px; font-family: 'Pretendard-ExtraLight'; color: #f3f3f3; line-height: 150%; text-align: center;}
