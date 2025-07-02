@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+@font-face {
+font-family: 'Pretendard-ExtraLight';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+font-weight: 200;
+font-style: normal;
+}
+@font-face {
+font-family: 'Pretendard-Light';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+@font-face {
+font-family: 'Pretendard-Regular';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+font-weight: 400;
+font-style: normal;
+}
+@font-face {
+font-family: 'Pretendard-Medium';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'Pretendard-SemiBold';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+font-weight: 600;
+font-style: normal;
+}
+@font-face {
+font-family: 'Pretendard-Bold';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+font-weight: 700;
+font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+a {text-decoration: none; color: #f3f3f3;}
+li {list-style: none;}
+
+.btn {width: 200px; height: 50px; border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;}
+.btn-txt {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 24px;
+    font-family: 'Pretendard-Regular';
+    line-height: 22px;}
+
+#wrap {
+    width: 100%;
+    background: #f3f3f3;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%; height: 140px;
+}
+
+.header-top {
+    width: 100%;
+    height: 50px;
+    background: #af7777;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 0 220px;
+}
+
+
+header .header-top .log {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+header .header-top .header-pop {
+    display: inline-block;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: 'Pretendard-Regular';}
+
+header .header-top .log li {
+    height: 100%;
+}
+
+header .header-top .log li a {
+    display: inline-block;
+    color: #f3f3f3;
+    font-size: 16px;
+    padding: 0 30px;
+    font-family: 'Pretendard-Light';
+}
+
+header .header-top .log .login {
+    background: url(../img/User_Circle.svg) no-repeat 0 center;
+}
+header .header-top .log .join {
+    background: url(../img/User_Add.svg) no-repeat 0 center;
+}
+header .header-top .log .cart {
+    background: url(../img/Shopping_Cart.svg) no-repeat 0 center;
+}
+
+
+.header-main {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 220px;
+}
+
+.header-main .category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.header-main .category li a {
+    display: inline-block;
+    line-height: 90px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-family: 'Pretendard-Regular';
+    color: #af7777;
+}
+
+.header-main .category li a:hover {font-weight: 600;}
+
+.header-main .icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-main .icon div {
+    padding: 0 15px;
+}
+
+
+.banner {
+    width: 100%; height: 1000px; 
+    background: url(../img/banner.png) no-repeat;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: flex-start;
+}
+
+.banner .banner-txt {
+    position: relative;
+    top: 135px; opacity: 0;
+    animation: banner 3s forwards;
+}
+@keyframes banner {
+    0% {top: 0px;}
+    100% {top: 135px; opacity: 1;}
+}
+
+.banner .banner-subtitle {
+    font-size: 30px;
+    font-family: 'Pretendard-Medium';
+    margin-bottom: 35px;
+    color: #af7777;
+    text-align: center;
+}
+
+.banner .banner-title {
+    font-size: 54px;
+    font-family: 'Pretendard-SemiBold';
+    margin-bottom: 30px;
+    color: #834521;
+    text-align: center;
+}
+.banner .banner-subject {
+    font-size: 26px;
+    font-family: 'Pretendard-Regular';
+    color: #8c8b87;
+    text-align: center;
+}
+
+.banner .btn {
+    position: relative;
+    top: 170px;
+    background-color: #EE998D;
+}
+
+
+.line {width: 150px; height: 2px; border-radius: 10px; margin: 100px auto; background-color: #f3c6bf;}
+
+.product {width: 100%; height: 1150px; border-radius: 0 300px 0 0; background: #edeae5;
+display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.product-txt {text-align: center;}
+
+.product-title {
+    font-size: 50px; font-family: 'Pretendard-Bold'; color: #834521;
+}
+
+.product-subtitle {
+    font-size: 30px; font-family: 'Pretendard-Light'; color: #915635; margin-top: 20px;
+}
+
+.product-contents {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.product-content img {width: 450px; display: inline-block; border-radius: 20px; border: 3px solid #fff;}
+.product-content .content-title {margin-top: 36px; font-size: 30px; font-family: 'Pretendard-SemiBold'; color: #834521;}
+.product-content .content-subject {margin-top: 40px; line-height: 32px; font-size: 20px; font-family: 'Pretendard-Light'; color: #686764;}
+.product-content a {margin-top: 70px; padding: 0 30px 0 0; font-size: 18px; font-family: 'Pretendard-Regular'; color: #af7777;
+    background: url(../img/arrow.svg) no-repeat right center;}
+
+.story {
+    width: 100%;
+    height: 784px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story .story-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.story .story-contents .story-title {
+    font-size: 45px;
+    font-family: 'Pretendard-Bold';
+    color: #834521;
+}
+
+.story .story-contents .story-content {
+    font-size: 28px;
+    font-family: 'Pretendard-Light';
+    color: #866650;
+    margin-top: 20px;
+}
+
+.story .story-subject {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: url(../img/story-bg.png) no-repeat center;
+}
+
+.story .story-subject img {width: 710px; height: 550px; box-shadow: 0 20px 20px rgb(134, 102, 80, 0.1);}
+
+.terrace {
+    width: 1480px; height: 800px; padding: 0 220px; background-color: #e9e3d7;
+    display: flex; align-items: center; justify-content: space-between
+}
+
+.terrace .terrace-txt .terrace-title {font-size: 50px; font-family: 'Pretendard-SemiBold'; color: #834521;}
+.terrace .terrace-txt .terrace-contents {
+    margin-top: 47px;
+    font-size: 30px; font-family: 'Pretendard-Light';
+    line-height: 35px; color: #866650;
+}
+
+.terrace .terrace-txt .terrace-contents .btn {
+    margin-top: 80px;
+    background: #934822;
+}
+
+.terrace .terrace-subject .img-slide {margin-bottom: 10px; width: 750px; height: 520px; position: relative;}
+.terrace .terrace-main {width: 750px; height: 520px;}
+.terrace-slide {position: absolute; bottom: 20px; left: 330px;}
+.terrace-stop {position: absolute; bottom: 20px; right: 40px;}
+.terrace-subject a {font-size: 20px; font-family: 'Pretendard-Regular'; color: #866650; padding-right: 30px; background: url(../img/terrace-arrow.svg) no-repeat right center;}
+
+.inspiration {
+    width: 100%; height: 1400px; display: flex; flex-direction: column;
+    background: url(../img/inspiration.png) no-repeat;
+    flex-shrink: 0;
+}
+
+.inspiration .inspiration-contents {
+    margin: 120px 0 0 280px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inspiration .inspiration-subtitle {
+    font-size: 32px; font-family: 'Pretendard-Regular'; color: #f7fef1;
+}
+.inspiration .inspiration-title {
+    font-size: 70px; font-family: 'Pretendard-Bold';
+    color: #f7fef1; margin-top: 20px;
+}
+.inspiration .inspiration-subject {
+    font-size: 30px; font-family: 'Pretendard-Light';
+    line-height: 50px;
+    color: #f7fef1; margin-top: 20px;
+}
+.inspiration .inspiration-contents .btn {background-color: #3d2a2a; margin-top: 50px;}
